@@ -1,0 +1,4 @@
+insert into videos (id, title, you_tube_id) values (999000, 'Reggie Watts at TEDxBerlin', 'Y7IxzpB-UMM');
+insert into quotes (id, text, video_id, start_time, end_time) values (999000, 'What is architecture? Architecture is not simply something soft that you can put in your hand and mold it to your own wishes or desires, but it is something that can be delicious if used with the right sauces.', 999000, 82, 97);
+insert into quotes (id, text, video_id, start_time, end_time) values (999001, 'Now many of us eat different forms of pasta every day, and yet, we don''t think of pasta as architecture. And yet it is a form of architecture because it is made of a structure that is preconceived.', 999000, 52, 65);
+insert into quotes (id, text, video_id, start_time, end_time) values (999002, 'I don''t want to be biological anymore, no more than anybody else wants to be mechanical. And yet mechanics are inherently biological.', 999000, 167, 179);

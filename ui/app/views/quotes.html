@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Quotes</h2>
+
+  <div ng-model="quotes">
+    <div ng-repeat="quote in quotes">
+      <p>{{quote.text}}</p>
+
+      <p><a href="{{quote._links.infiniteLooper.href}}">InfiniteLooper</a></p>
+    </div>
+  </div>
+</div>
