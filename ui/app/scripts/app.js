@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/quotes.html',
         controller: 'QuotesCtrl'
       })
+      .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'NavCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
